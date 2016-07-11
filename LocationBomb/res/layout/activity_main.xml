@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+   <Button   
+                 android:id="@+id/upload"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:text="上传数据"
+                 android:textSize="20sp"/>
+  <Button  
+                      android:id="@+id/getall"
+                      android:layout_below="@id/upload"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:text="获取"
+                      android:textSize="20sp"/>
+</RelativeLayout>
